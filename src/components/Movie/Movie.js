@@ -13,7 +13,7 @@ class Movie extends React.Component {
 
   render() {
     return (
-      <div className="movie-detail" style={{marginTop: "100px"}}>
+      <div className="movie-detail" style={{marginTop: "100px", marginBottom: "200px"}}>
         <h1 >{this.props.movie.Title}</h1>
         <p>Year -{this.props.movie.Year}</p>
         <img src={this.props.movie.Poster}></img>
