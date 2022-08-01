@@ -8,7 +8,7 @@ export default function NavBar() {
         
             <nav> 
                 <img src={icon} style={{maxWidth: "35px", marginLeft: "20px"}}/>
-                <NavLink exact to="/" style={{color:  "white", textDecoration: "none", padding: "0 30px 0 30px"}}>Home</NavLink>
+                <NavLink exact to="/api-movies" style={{color:  "white", textDecoration: "none", padding: "0 30px 0 30px"}}>Home</NavLink>
                 <NavLink to="/favs"  style={{color:  "white", textDecoration: "none"}}>Favorites</NavLink>
             </nav>
         </header>

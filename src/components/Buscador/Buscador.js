@@ -19,6 +19,9 @@ export class Buscador extends Component {
     event.preventDefault();
     this.props.getMovies(this.state.title);
   }
+  componentWillUnmount(){
+
+  }
 
   render() {
     const { title } = this.state;
