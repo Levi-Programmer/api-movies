@@ -11,7 +11,7 @@ function App() {
   return (
       <React.Fragment>
           <NavBar />
-          <Route exact path="/api-movies" component={Buscador} />
+          <Route exact path="/api-movies/" component={Buscador} />
           <Route path="/favs" component={Favorites} />
           <Route path="/movie/:id" component={Movie} />
           <Footer/>
